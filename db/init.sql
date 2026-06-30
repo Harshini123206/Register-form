@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS registration_app CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE registration_app;
+CREATE DATABASE IF NOT EXISTS students CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE students;
 
 CREATE TABLE IF NOT EXISTS students (
   id INT AUTO_INCREMENT PRIMARY KEY,
